@@ -26,3 +26,6 @@
   font-weight: 600;
   margin-top: -10px;
 }
+.cate-div{
+  display: flex !important;
+}
