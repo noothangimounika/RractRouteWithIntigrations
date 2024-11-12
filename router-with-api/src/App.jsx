@@ -9,6 +9,7 @@ import { Routes, Route } from 'react-router-dom';
 // import Navbar from './Navbar';
 // import Reference from './Reference';
 import Categories from './routerComp/Categories';
+import ProductDetails from './routerComp/ProductDetails';
 
 
 const App = () => {
@@ -24,7 +25,8 @@ const App = () => {
 
 
 
-        <Route path='/categories' element={<Categories />} />
+        <Route path='/' element={<Categories />} />
+        <Route path='/productdetails' element={<ProductDetails />} />
 
 
       </Routes>

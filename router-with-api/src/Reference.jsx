@@ -60,7 +60,7 @@ const Reference = () =>{
 
                                 <div key={index}>
                                     <h4>{item.category}</h4>
-                                    <img src={item.image}  style={{width:'300px',height:'300px'}}/>
+                                    <img src={item.image}  style={{width:'100px',height:'100px'}}/>
                                     <p style={{fontWeight:'bold',color:'blue',fontSize:30}}>Price <span>{item.price}</span></p>
                                     <div style={{display:'flex',gap:80}}>
 
@@ -70,7 +70,9 @@ const Reference = () =>{
                                     </div>
                                     <p style={{width:"300px"}}>{item.description}</p>
                                    
-                                </div></Link>
+                                </div>
+                                
+                                </Link>
                             )
                         })
                     }
